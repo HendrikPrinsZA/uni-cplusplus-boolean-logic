@@ -1,0 +1,53 @@
+else if (_fx=='X')
+	{
+		fx = new XorExpression(NULL,NULL);
+	} 
+C:\Users\Hendrik_64\Desktop\121_fix>main
+Enter function: (F$$(T&&F))||(TUUF)
+(T&&F)&&(F&&T)
+F&&(T||F)
+
+(W&&X)&&(Y&&Z)
+
+(F$$(T&&F))||((TUU(T&&F))&&T)
+
+(F$$(T==F))||(WUU(F&&T))
+
+
+for (int a=0; a<nmrOfVar; a++)
+		{
+			if ((a%1)==0)
+			{
+				if (a1==false)
+					a1 = true;
+				else a1 = false;
+			}
+			if ((a%2)==0)
+			{
+				if (a2==false)
+					a2 = true;
+				else a2 = false;
+			}
+			if ((a%4)==0)
+			{
+				if (a3==false)
+					a3 = true;
+				else a3 = false;
+			}
+			if ((a%8)==0)
+			{
+				if (a4==false)
+					a4 = true;
+				else a4 = false;
+			}
+			cout << "|";
+			if (_w==true)
+				cout << " "<<a4<<" |";
+			if (_x==true)
+				cout << " "<<a3<<" |";
+			if (_y==true)
+				cout << " "<<a2<<" |";
+			if (_z==true)
+				cout << " "<<a1<<" |";
+			cout << endl;
+		}
